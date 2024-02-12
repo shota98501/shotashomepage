@@ -2,7 +2,6 @@ import React from "react";
 import {Sidenav} from "rsuite";
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import "./SidebarNav.css";
 
 const isMobile = window.innerWidth < 600;
@@ -34,9 +33,6 @@ function SidebarNav(){
             </a>
             <a href="https://github.com/shota98501">
                <GitHubIcon style={{fontSize: 20}}></GitHubIcon> 
-            </a>
-            <a href="https://twitter.com/Sho_taso98501">
-               <TwitterIcon style={{fontSize: 20}}></TwitterIcon> 
             </a>
         </div>
         
