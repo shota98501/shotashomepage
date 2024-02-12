@@ -1,0 +1,73 @@
+#intro{
+    padding-left: 15%;
+    min-height: 60vh;
+}
+
+.Type{
+    color:#d4d5d9;
+    font-family: "HandoSoftTrial";
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.intro-title{
+    margin-top: -36px;
+    font-family: "HandoSoftTrial";
+    font-weight: 300;
+    font-size: 48px;
+    color: #d4d5d9;
+}
+
+.intro-subtitle{
+    color: #d4d5d9;
+    font-family: "HandoSoftTrial";
+    font-size: 22px;
+    max-width: 40%;
+    padding-bottom: 50px;
+    letter-spacing: normal;
+}
+
+.intro-contact{
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: "HandoSoftTrial";
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 1px solid(#d4d5d9);
+    border-radius: 4px;
+}
+
+.intro-contact:hover{
+    background-color:#272727 ;
+}
+
+@media only screen and (max-width: 600px){
+
+    #intro{
+        min-height: unset;
+        padding-left: unset;
+        margin: 0;
+        align-items: center;
+    }
+
+    .Type{
+        font-size: 36px;
+    }
+
+    .intro-title{
+        font-size: 46px;
+    }
+
+    .intro-subtitle{
+        font-size: 18px;
+        text-align: center;
+        max-width: unset;
+        padding-bottom: 40px;
+    }
+
+    .intro-contact{
+        font-size: 16px;
+        align-self: center;
+        margin-left: 30px;
+    }
+}

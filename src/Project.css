@@ -1,0 +1,70 @@
+#projects{
+    padding-left: 15%;
+    padding-right: 25%;
+    min-height: 60vh;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+
+@media(max-width: 1080px){
+    .projects-grid{
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+    }
+}
+
+.projects-card{
+    position: relative;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    position: relative;
+    height: 100%;
+    padding: 2rem 1.75rem;
+    background-color: #272727;
+    border-radius: 16px;
+}
+
+.projects-card:hover{
+    transform: translateY(-7px);
+    background-color: #272727;
+}
+
+.card-header{
+    margin-top: -20px;
+    display: flex;
+    padding: 1.25em 0 !important;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: none !important;
+}
+
+.folder-icon{
+    color: red
+}
+
+.card-title{
+    font-family: "HandoSoftTrial";
+    color: #d4d5d9;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-desc{
+    font-family: "HandoSoftTrial";
+    color: #d4d5d9;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.card-tech{
+    font-family: "HandoSoftTrial";
+    color: #d4d5d9;
+    font-size: 16px;
+}
+
