@@ -10,14 +10,13 @@ function Projects (){
             title: "todoproject",
             desc:
             "A simple Todo Software to not lose tracks of your works",
-            techsack: "Django",
+            techstack: "Django",
         },
         "SNSProject":{
             title:"snsproject",
             desc:
             "Got inspired from the movie Social Network",
             techstack: "Django",
-            
         },
         "HomepageProject":{
             title:"homepageproject",
@@ -46,7 +45,7 @@ function Projects (){
                             </div>
                             <div className="card-title">{key}</div>
                             <div className="card-desc">{projects[key]["desc"]}</div>
-                            <div className="card-tech">{projects[key]["techstack"]}"</div>
+                            <div className="card-tech">{projects[key]["techstack"]}</div>
                         </li>
                         </FadeinSection>
                     ))}
