@@ -48,7 +48,7 @@
     background-color:#f3172d!important;
 }
 
-.BOX{
+.MuiBox-root{
     border-right: 1px solid #f3172d !important;
 }
 
@@ -106,7 +106,7 @@ ul{
         flex-direction: column !important;
     }
 
-    .BOX{
+    .MuiBox-root{
         height: unset !important;
         width: unset;
         flex-direction: column;
