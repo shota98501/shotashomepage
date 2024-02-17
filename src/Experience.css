@@ -106,7 +106,7 @@ ul{
         flex-direction: column !important;
     }
 
-    .styled-root-1{
+    .BOX{
         height: unset !important;
         width: unset;
         flex-direction: column;
