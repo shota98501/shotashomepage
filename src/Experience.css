@@ -119,7 +119,14 @@ ul{
     .joblist-job-company{
         font-size: 22px;
     }
+
+    #vertical-tabpanel{
+        margin-top: -28px;
+        padding-left: 25px;
+    }
 }
+
+
 
 
 
