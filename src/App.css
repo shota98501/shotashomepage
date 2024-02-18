@@ -100,5 +100,7 @@ html{
 
     .section-title{
         font-size: 32px;
+        text-align: left;
+        
     }
 }
