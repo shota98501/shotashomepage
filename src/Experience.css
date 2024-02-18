@@ -1,4 +1,6 @@
 #experience{
+    min-height: 50vh;
+    margin:auto;
     padding-left: 15%;
     min-height: 60vh;
 }
@@ -96,8 +98,8 @@ ul{
 @media only screen and (max-width: 600px){
 
     #experience{
-        padding-left: 15%;
-        min-height: 60vh;
+        padding-left: unset;
+        padding-right: unset;
     }
 
     .jss1{
