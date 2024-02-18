@@ -4,6 +4,7 @@
     padding-left: 15%;
     min-height: 60vh;
     padding-top: 100px;
+    max-width: fit-content;
 }
 
 .joblist-job-title{
@@ -99,8 +100,12 @@ ul{
 @media only screen and (max-width: 600px){
 
     #experience{
-        padding-left: unset;
-        padding-right: unset;
+        min-height: 50vh;
+        margin:auto;
+        padding-left: 15%;
+        min-height: 60vh;
+        padding-top: 100px;
+        max-width: fit-content;
     }
 
     .jss1{
