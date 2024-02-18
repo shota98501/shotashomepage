@@ -96,10 +96,6 @@ ul{
 }
 
 @media only screen and (max-width: 600px){
-    #experience{
-        padding-left: unset;
-        padding-right: unset;
-    }
 
     .jss1{
         height: unset !important;
