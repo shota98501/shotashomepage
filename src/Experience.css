@@ -60,8 +60,6 @@
     color: #f3172d;
 }
 
-
-
 ul{
     list-style: none;
     margin-left: -40px;
@@ -96,6 +94,11 @@ ul{
 }
 
 @media only screen and (max-width: 600px){
+
+    #experience{
+        padding-left: 15%;
+        min-height: 60vh;
+    }
 
     .jss1{
         height: unset !important;
