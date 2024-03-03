@@ -33,8 +33,7 @@ const handleChange =(eventKey) =>{
             <div className="intro-title">I often create stuff</div>
             <div className="intro-subtitle">
               I`m a Network/Software Engineer based in Tokyo
-              i`m interested in full-stack development,machine learning,
-              game development and everything in between!
+              i`m interested in Front End
             </div>
             <div className="intro-contact">
             <a 

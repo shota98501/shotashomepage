@@ -74,7 +74,7 @@ function TabPanel(props){
         const experienceitems ={
             Software: {
                 jobTitle: "Django,Javascript,React@",
-                duration: "Jan 2023-Present",
+                duration: "May 2022-Present",
                 desc:[
                     "Developing and maintaining web applications using Python/Django/JavaScript/React and related technologies",
                     "Writing custom Python code to extend Django applications",
