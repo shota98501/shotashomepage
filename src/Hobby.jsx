@@ -27,5 +27,9 @@ function Hobby (){
         "Reading",
         "Training",
         "Travel",
-    ]
+    ];
+
+    const hobby_items = tech_stack.map(stack => <li>{stack}</li>);
+
+    
 }
