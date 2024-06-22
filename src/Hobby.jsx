@@ -1,6 +1,10 @@
 import React,{useState} from "react";
+import FolderOpen from "@mui/icons-material/FolderOpen";
 import FadeInSection from "./FadeinSection";
+import ExternalLinks from './ExternalLinks'
 import './Hobby.css'
+import Projects from "./Project";
+
 
 function Hobby (){
     const [setState] = useState({
@@ -8,28 +12,57 @@ function Hobby (){
         activeKey: "1"
     });
 
-    const handleChange = (eventKey) =>{
+    const handleChange = (eventKey) =>
         setState({
             activeKey: eventKey
         })
-    }
 
-    const one = (
-        <p>
-            Outside of work and studying, I like to engage to hobbies
-        </p>
-    );
 
-    const desc_item = [one]
+    const hobbys = {
+        "Gaming":{
+            title:"gaming",
+            desc:
+            "Like to play shootinggames and open world games",
+            link: ""
+        },
+        "Reading":{
+            title:"reading",
+            desc:
+            "Like to read fantasy and mystery",
+            link:""
+        }
+    };
 
-    const hobby_stack = [
-        "Gaming",
-        "Reading",
-        "Training",
-        "Travel",
-    ];
-
-    const hobby_items = tech_stack.map(stack => <li>{stack}</li>);
+    return(
+        <div
+        onchange={handleChange}
+        >
+        <div id="projects">
+            <div className="section-header">
+                <span className="section-title">/ Hobbys</span>
+            </div>
+            <div className="project-container">
+                <ul className="projects-grid">
+                    {Object.keys(projects).map((key, i) =>(
+                        <FadeinSection delay={`${i + 1}00ms`}>
+                            <li className="projects-card">
+                                <div className="card-header">
+                                    <div className="folder-icon">
+                                        <FolderOpenIcon
+                                        style={{fontSize: 35}}
+                                        ></FolderOpenIcon>
+                                    </div>
+                                </div>
+                            </li>
+                        </FadeinSection>
+                    ))}
+                </ul>
+            </div>
+        </div>
+        </div>
+    )
 
     
+
+
 }
